@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Installs and configures Docker via apt and adds the invoking user to the docker group.
+# Must be run as root via sudo.
+# Usage: sudo ./setup-docker.sh
+
 # ===== CONFIG =====
 DOCKER_PKG="docker.io"
 DOCKER_SERVICE="docker"

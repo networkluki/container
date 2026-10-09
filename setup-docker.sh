@@ -2,6 +2,7 @@
 set -euo pipefail
 
 # Installs and configures Docker via apt and adds the invoking user to the docker group.
+# Written by Luki Hackwell
 # Must be run as root via sudo.
 # Usage: sudo ./setup-docker.sh
 
